@@ -203,7 +203,7 @@ public class CloudInfrastructureTest {
         assertEquals(4, cloud.globalUsedMemory(), PRECISION);
 
         cloud.emptyStore("myImages");
-        assertEquals(71, cloud.globalUsedDisk(), PRECISION);
+        assertEquals(70, cloud.globalUsedDisk(), PRECISION);
         assertEquals(4, cloud.globalUsedMemory(), PRECISION);
     }
 
